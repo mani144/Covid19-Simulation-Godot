@@ -1,0 +1,78 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI.gd" type="Script" id=1]
+
+[node name="UI" type="Control" groups=[
+"UI_Commands",
+]]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 82.0
+margin_bottom = 73.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="Panel"]
+margin_right = 40.0
+margin_bottom = 40.0
+columns = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CLabel" type="Label" parent="Panel/GridContainer"]
+margin_right = 59.0
+margin_bottom = 14.0
+text = "Cured : "
+
+[node name="CLabelN" type="Label" parent="Panel/GridContainer"]
+margin_left = 63.0
+margin_right = 79.0
+margin_bottom = 14.0
+text = "0"
+
+[node name="NLabel" type="Label" parent="Panel/GridContainer"]
+margin_top = 18.0
+margin_right = 59.0
+margin_bottom = 32.0
+text = "Normal : "
+
+[node name="NLabelN" type="Label" parent="Panel/GridContainer"]
+margin_left = 63.0
+margin_top = 18.0
+margin_right = 79.0
+margin_bottom = 32.0
+text = "99"
+
+[node name="SLabel" type="Label" parent="Panel/GridContainer"]
+margin_top = 36.0
+margin_right = 59.0
+margin_bottom = 50.0
+text = "Sick : "
+
+[node name="SLabelN" type="Label" parent="Panel/GridContainer"]
+margin_left = 63.0
+margin_top = 36.0
+margin_right = 79.0
+margin_bottom = 50.0
+text = "1"
+
+[node name="DLabel" type="Label" parent="Panel/GridContainer"]
+margin_top = 54.0
+margin_right = 59.0
+margin_bottom = 68.0
+text = "Dead : "
+
+[node name="DLabelN" type="Label" parent="Panel/GridContainer"]
+margin_left = 63.0
+margin_top = 54.0
+margin_right = 79.0
+margin_bottom = 68.0
+text = "0"
