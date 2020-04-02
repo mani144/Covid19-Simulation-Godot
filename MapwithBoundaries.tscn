@@ -82,8 +82,8 @@ points = PoolVector2Array( 13.5823, 10.7434, 2.49429, 10.7434, 2.27794, 0.358509
 [node name="Map2" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_right = 1039.0
-margin_bottom = 596.0
+margin_right = 1019.0
+margin_bottom = 604.0
 color = Color( 0.227451, 0.266667, 0.4, 1 )
 __meta__ = {
 "_edit_use_anchors_": false,
