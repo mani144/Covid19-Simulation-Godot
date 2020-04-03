@@ -4,9 +4,9 @@ extends RigidBody2D
 var dragging
 var drag_start = Vector2()
 
-onready var SICK_TEXTURE  := load("res://Assests/sick.png")
-onready var CURED_TEXTURE := load("res://Assests/cured.png")
-onready var DEAD_TEXTURE  := load("res://Assests/dead.png")
+onready var SICK_TEXTURE  := load("res://assets/sick.png")
+onready var CURED_TEXTURE := load("res://assets/cured.png")
+onready var DEAD_TEXTURE  := load("res://assets/dead.png")
 
 const NORMAL : int = 0
 const SICK   : int = 1 

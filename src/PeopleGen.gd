@@ -2,8 +2,8 @@ extends Node2D
 
 
 
-var sick := preload("res://Assests/Base.tscn")
-var Base := preload("res://Assests/Base.tscn")
+var sick := preload("res://scenes/Base.tscn")
+var Base := preload("res://scenes/Base.tscn")
 var totalPeople : int = 99
 
 

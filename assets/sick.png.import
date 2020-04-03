@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sick.png-6ac68840bbeeb3c43f2ecc2af5a1b13d.stex"
+path="res://.import/sick.png-384e8af1be399786cabe17a9f5cea23c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assests/sick.png"
-dest_files=[ "res://.import/sick.png-6ac68840bbeeb3c43f2ecc2af5a1b13d.stex" ]
+source_file="res://assets/sick.png"
+dest_files=[ "res://.import/sick.png-384e8af1be399786cabe17a9f5cea23c.stex" ]
 
 [params]
 

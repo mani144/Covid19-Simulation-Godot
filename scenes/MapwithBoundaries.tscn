@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://Boundaries.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assests/block_tilemap.png" type="Texture" id=2]
-[ext_resource path="res://UI.tscn" type="PackedScene" id=3]
-[ext_resource path="res://PeopleGen.gd" type="Script" id=4]
+[ext_resource path="res://scenes/Boundaries.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/block_tilemap.png" type="Texture" id=2]
+[ext_resource path="res://scenes/UI.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/PeopleGen.gd" type="Script" id=4]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 2.22385, 2.82654, 13.7987, 2.71836, 13.7446, 15.8076, 1.95341, 15.9699 )

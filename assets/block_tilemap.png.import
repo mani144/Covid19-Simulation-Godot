@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cured.png-969a295dd651040d40614a52e61292a4.stex"
+path="res://.import/block_tilemap.png-7b7ae1162deb818c6e706654e86d104a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assests/cured.png"
-dest_files=[ "res://.import/cured.png-969a295dd651040d40614a52e61292a4.stex" ]
+source_file="res://assets/block_tilemap.png"
+dest_files=[ "res://.import/block_tilemap.png-7b7ae1162deb818c6e706654e86d104a.stex" ]
 
 [params]
 
